@@ -1,0 +1,10 @@
+<?php
+ $image=imagecreate(300,200);
+ $red=imagecolorallocate($image,250,0,0);
+ $white=imagecolorallocate($image,250,0,0);
+ ImageFiledRectangle($image,50,50,100,100,$red);
+ ImageString($image,5,50,120,"Welcome",$red);
+ imagejpeg($image);
+ imagejpeg($image);
+ header('Content_Type.C:\xampp\htdocs\20220811_121457.jpg');
+?>
